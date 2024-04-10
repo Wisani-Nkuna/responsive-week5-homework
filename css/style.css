@@ -89,7 +89,7 @@ a.active {
   margin-bottom: 50px;
 }
 
-.btn-normal {
+.btn-normal-dark {
   background-color: transparent !important;
   border: solid 1px white !important;
   padding: 20px;
@@ -97,6 +97,13 @@ a.active {
   color: white;
 }
 
+.btn-normal-light {
+  background-color: transparent !important;
+  border: solid 1px #171717 !important;
+  padding: 20px;
+  border-radius: 40px !important;
+  color: #171717;
+}
 .gradient-block {
   height: 100px;
   background-color: #171717;
@@ -112,10 +119,12 @@ a.active {
 
 .about-img {
   border-radius: 50%;
-  margin: 4px 2px;
   box-shadow: 5px 5px 8px #9c356d, 10px 10px 8px #f9784c, 15px 15px 8px #fcd68b;
-  margin: 20px;
 }
 .tiny-heading {
     color: #f9784c !important;
+}
+
+.work-img {
+    height: 100vh;
 }
