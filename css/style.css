@@ -1,0 +1,121 @@
+body {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-bold {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montserrat-medium,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 10vw !important;
+}
+
+.karla-bold {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.karla-regular,
+p {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.active {
+  text-decoration: underline solid #f9784c 3px;
+  text-underline-offset: 8px;
+}
+
+.navbar {
+  background-color: #171717 !important;
+}
+.hero-section {
+  background-color: #171717;
+  color: white;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-right: 10px;
+}
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #fffaef,
+    #fcd68b,
+    #f9784c,
+    #9c356d,
+    #171717
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+  margin-bottom: 50px;
+}
+
+.btn-normal {
+  background-color: transparent !important;
+  border: solid 1px white !important;
+  padding: 20px;
+  border-radius: 40px !important;
+  color: white;
+}
+
+.gradient-block {
+  height: 100px;
+  background-color: #171717;
+  background-image: linear-gradient(
+    0deg,
+    #fffaef,
+    #fcd68b,
+    #f9784c,
+    #9c356d,
+    #171717
+  );
+}
+
+.about-img {
+  border-radius: 50%;
+  margin: 4px 2px;
+  box-shadow: 5px 5px 8px #9c356d, 10px 10px 8px #f9784c, 15px 15px 8px #fcd68b;
+  margin: 20px;
+}
+.tiny-heading {
+    color: #f9784c !important;
+}
