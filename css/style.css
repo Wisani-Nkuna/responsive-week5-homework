@@ -123,9 +123,9 @@ a.active {
   box-shadow: 5px 5px 8px #9c356d, 10px 10px 8px #f9784c, 15px 15px 8px #fcd68b;
 }
 .tiny-heading {
-    color: #f9784c !important;
+  color: #f9784c !important;
 }
 
 .work-img {
-    height: 100vh;
+  height: 100vh;
 }
